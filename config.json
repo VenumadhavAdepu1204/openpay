@@ -1,0 +1,44 @@
+{
+    "testEnvironment": "jest-environment-jsdom-thirteen",
+    "setupTestFrameworkScriptFile": "./setupTests.js",
+    "collectCoverage": true,
+    "testMatch": [
+      "**/src/**/*.test.tsx"
+    ],
+    "testPathIgnorePatterns": [
+      "node_modules",
+      "public",
+      "dist",
+      "reports"
+    ],
+    "collectCoverageFrom": [
+      "src/container/**/*.tsx",
+      "src/components/**/*.tsx"
+    ],
+    "moduleFileExtensions": [
+      "tsx"
+    ],
+    "coverageDirectory": "./reports/unit/jest/",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/build/",
+      "/reports/"
+    ],
+    "coverageReporters": [
+      "json",
+      "html",
+      "lcov",
+      "text"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 85.00,
+        "branches": 75.00,
+        "functions": 85.00,
+        "lines": 85.00
+      }
+    },
+    "verbose": true,
+    "globals": {}
+  }
+  

@@ -1,0 +1,41 @@
+{
+    "purchasePrice" : "$123.45",
+    "depositAmount" : "$10.00",
+    "ScheduledOptions": [
+        {
+            "interval": "weekly",
+            "paymentCount" : 16,
+            "instalmentAmount": "$7.71"
+        },
+        {
+            "interval": "weekly",
+            "paymentCount" : 8,
+            "instalmentAmount": "$15.43"
+        },
+        {
+            "interval": "weekly",
+            "paymentCount" : 12,
+            "instalmentAmount": "$10.28"
+        },
+        {
+            "interval": "fortnightly",
+            "paymentCount" : 6,
+            "instalmentAmount": "$18.90"
+        },
+        {
+            "interval": "fortnightly",
+            "paymentCount" : 4,
+            "instalmentAmount": "$28.36"
+        },
+        {
+            "interval": "monthly",
+            "paymentCount" : 3,
+            "instalmentAmount": "$41.00"
+        },
+        {
+            "interval": "monthly",
+            "paymentCount" : 2,
+            "instalmentAmount": "$60.10"
+        }
+    ]
+}
